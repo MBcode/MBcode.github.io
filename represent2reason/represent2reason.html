@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 lte9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html><!--<![endif]--><head>
+    <link href="lab-our_files/css.css" rel="stylesheet" type="text/css"> 
+
+    
+    
+    <title>Represent2Reason Inc.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index, follow">
+    <link href="http://www.kaggle.com/content/v/4e3f994e938b/kaggle/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    
+        <meta name="keywords" content="Kaggle, data science, big analytics, data mining, forecasting, statistics, prediction, bioinformatics, competitions, contests, crowdsourced analytics">
+            <meta name="description" content="Kaggle is a platform for data prediction competitions. Companies, organizations and researchers post their data and have it scrutinized by the world's best statisticians.">
+
+            <link rel="stylesheet" href="lab-our_files/base.css" type="text/css">
+        <link rel="stylesheet" href="lab-our_files/kaggle-site.css" type="text/css">
+
+        <script src="lab-our_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="lab-our_files/jquery-1.js"></script>
+
+    
+        <script type="text/javascript" src="lab-our_files/kaggle.js"></script>
+        <script type="text/javascript">
+            
+            Kaggle.Current.siteId = 1;
+                    </script>
+
+    
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="/content/v/25d27cd7f061/shared/js/ie/selectivizr.min.js"></script>
+    <![endif]-->
+
+    
+                                        
+                                                                        <link rel="apple-touch-icon" href="http://www.kaggle.com/content/v/1e4cdaa83f46/kaggle/img/apple-touch-icon.png">
+
+
+    
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body class="logged-out    kaggle">
+    <div id="wrap"><!-- needed for sticky footer -->
+<div id="menu-open-overlay"></div>
+
+<div id="header2">
+    <div id="header2-inside">    
+        <a id="logo" href="represent2reason.html"><img alt="LABour" src="lab-our_files/sci.png" width="240" height="86"></a>
+
+
+        <script>
+            jQuery(function () {
+                jQuery('#header-ul li:has(ul) > a').click(function(e) {
+                    e.preventDefault();
+                    
+                    jQuery('#header-ul li').not(jQuery(this).parent()).find('ul').removeClass('open');
+                    jQuery(this).parent().find('ul').toggleClass('open');
+                    jQuery('#menu-open-overlay').show();
+                });
+
+                jQuery('#menu-open-overlay').click( function() {
+                    jQuery('#header-ul ul').removeClass('open');
+                    jQuery('#top-bar-signin').hide();
+                    jQuery(this).hide();
+                });
+
+            });
+        </script>
+    
+        <ul id="header-control">
+                <li id="header-signup"><a href="http://www.kaggle.com/account/register"><strong>
+                        Start combining your effort
+                    </strong></a></li>  
+                <li id="header-login">
+                    <a href="http://www.kaggle.com/account/login?returnUrl=%2F" class="login-link">Login</a>
+                </li>      
+        </ul>
+            <div id="top-bar-signin">    
+                <div id="social-authentication-top">
+    <div id="social-authentication-top-head">
+        Log in<br>
+        with —
+    </div>
+    <div id="social-authentication-top-buttons">
+        <a href="http://www.kaggle.com/account/authenticate/facebook?js=1" class="socialSignIn facebook" title="Log in with Facebook"><img src="lab-our_files/auth-facebook.png" alt="Sign up with Facebook" title="Sign up with Facebook" width="36" height="36"></a>
+        <a href="http://www.kaggle.com/account/authenticate/google?js=1" class="socialSignIn google" title="Log in with Google"><img src="lab-our_files/auth-google.png" alt="Sign up with Google" title="Sign up with Google" width="36" height="36"></a>
+        <a href="http://www.kaggle.com/account/authenticate/yahoo?js=1" class="socialSignIn yahoo" title="Log in with Yahoo"><img src="lab-our_files/auth-yahoo.png" alt="Sign up with Yahoo" title="Sign up with Yahoo" width="36" height="36"></a>
+    </div>
+    
+    <script type="text/javascript">
+        var socialSignInLinks = $('a.socialSignIn');
+        socialSignInLinks.attr("href", function(i,v){
+            return v + '?js=1';
+        });
+        socialSignInLinks.click(function(){
+            _gaq.push(['_trackEvent', 'action', 'login', 'top-bar']);
+            return true;
+        });
+    </script>
+</div>
+    
+
+<form action="https://www.kaggle.com/account/login" id="signin" method="post"><input id="returnUrl" name="returnUrl" value="http://www.kaggle.com/" type="hidden"><input data-val="true" data-val-length="The field User name must be a string with a minimum length of 2 and a maximum length of 255." data-val-length-max="255" data-val-length-min="2" data-val-required="The User name field is required." id="UserName" name="UserName" placeholder="Email / username" type="text"><span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span><input data-val="true" data-val-length="The field Password must be a string with a minimum length of 1 and a maximum length of 255." data-val-length-max="255" data-val-length-min="1" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password"><span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>    <div id="remember-me">
+        <input data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" value="true" type="checkbox"><input name="RememberMe" value="false" type="hidden">            
+        <label for="RememberMe">Remember me?</label>
+    </div>   
+    <input value="Login" type="submit">
+<input name="__RequestVerificationToken" value="q-Ku6Yzqn53aGItAC_hf4cJuk-D7d7RtfvoHsh64epe1GshM3Ihc0Vo4l1JfjhW5fjKd7bwacYWyvYg5nru6gdRoUzg1" type="hidden">    <input id="signinjs" name="JavaScriptEnabled" value="true" type="hidden">    
+</form>
+<script type="text/javascript">
+    $('#signinjs').attr('value', 'true');
+    $('#signin').submit(function () { _gaq.push(['_trackEvent', 'action', 'login', 'top-bar']); });
+</script>
+
+<div id="forgot-links">        
+    Forgot your <a href="http://www.kaggle.com/forgot/username">Username</a> 
+    / 
+    <a href="http://www.kaggle.com/forgot/password">Password</a>?
+</div>
+
+            </div>
+            <script>
+                jQuery(function () {
+                    jQuery('.login-link').click(function (e) {
+                        e.preventDefault();
+                        jQuery('#top-bar-signin').toggle();
+                        jQuery('#menu-open-overlay').toggle();
+                        if (jQuery('#top-bar-signin').is(":visible")) {
+                            jQuery('#UserName').focus();
+                        }
+                    });
+                });
+            </script>
+    </div>
+</div>
+
+
+
+                
+        
+         
+
+        <!-- header-inside and header -->
+
+
+
+<div class="front-aug14">
+
+    <div id="head" class="top-banner">
+      <img src="lab-our_files/front-head-bg.png" class="backdrop-image">
+        <h1>Represent2Reason Inc.</h1>
+      <div id="head-links" style="width:32em">
+            
+            <a href="https://mbcode.github.io/">my github.io</a> •
+            <a href="https://orcid.org/0000-0003-2357-5918">orcid</a> •
+            <a href="https://www.wikidata.org/wiki/Q104512704">wikidata.org/wiki/Q104512704</a> • 
+            <!--<a href="/forums">Expert Community</a> &bull;-->
+            <a href="https://scholar.google.com/citations?user=X-aHXl4AAAAJ&hl=en">google_scholar</a> •
+            <a href="https://twitter.com/MBstream" target="_blank">twitter</a> • 
+        	<a href="https://mas.to/@MBstream">mastadon</a>
+        </div>
+    </div>
+    
+    <div id="for-customers">
+        <h2>For your Community</h2>
+        <div id="for-customers-split">
+            <div>
+              <a href="http://www.kaggle.com/solutions"><img src="lab-our_files/front-energy-focus.png" style="margin-bottom:9px;margin-top:9px;" width="192" height="104"></a>
+                <h3>Knowledge-Representation at work</h3>
+                <p>Industry uses our expertise in AI/KR &amp; to drive high-stakes decisions.</p>
+                <a href="http://www.kaggle.com/solutions" class="button">Find out more ›</a>
+            </div>
+            <div>
+              <a href="http://www.kaggle.com/solutions/competitions"><img src="lab-our_files/front-competitive.png" width="221" height="122"></a>
+                <h3>KR for Cooperative Analytics</h3>
+                <p>For any industry, we help tap your whole community of problem solvers to cooperatively tackle your (data)problems.</p>
+                <a href="http://www.kaggle.com/solutions/competitions" class="button">Host a meta-lab ›</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="front-aug14">
+        <div id="front-featured">
+            <h2>Featured Cooperations <small><a href="index_bak.html">view all ›</a></small></h2>
+
+            
+
+    <ul id="front-featured">
+        
+            <li>
+
+                <a href="http://www.kaggle.com/c/tradeshift-text-classification"><img class="front-current-image" src="lab-our_files/front_page_002.bin" alt="Tradeshift Text Classification" title="Tradeshift Text Classification" width="76" height="76"></a>
+                <div class="info-box">
+                    <h3><a class="comp-link" href="http://www.kaggle.com/c/tradeshift-text-classification">Tradeshift Text Classification</a></h3>
+                    <p>Classify text blocks in documents</p>
+                </div>
+            </li>
+            <li>
+
+                <a href="http://www.kaggle.com/c/seizure-prediction"><img class="front-current-image" src="lab-our_files/front_page_003.bin" alt="American Epilepsy Society Seizure Prediction Challenge" title="American Epilepsy Society Seizure Prediction Challenge" width="76" height="76"></a>
+                <div class="info-box"> <h3><a class="comp-link" href="http://www.kaggle.com/c/seizure-prediction">American Epilepsy Society Seizure Prediction Challenge</a></h3>
+                    <p>Predict seizures in intracranial EEG recordings</p>
+                </div>
+            </li>
+            <li>
+
+                <a href="http://www.kaggle.com/c/afsis-soil-properties"><img class="front-current-image" src="lab-our_files/front_page.bin" alt="Africa Soil Property Prediction Challenge " title="Africa Soil Property Prediction Challenge " width="76" height="76"></a>
+                <div class="info-box">
+                    <h3><a class="comp-link" href="http://www.kaggle.com/c/afsis-soil-properties">Africa Soil Property Prediction Challenge </a></h3>
+                    <p>Predict physical and chemical properties of soil using spectral measurements</p>
+                </div>
+            </li>
+    </ul>
+
+
+            <a class="button" href="http://www.kaggle.com/account/register">Cooperate as citizen scientists ›</a>
+						<div class="fame-fortune-fun"><a href=http://mike.bobak.googlepages.com/meaning>for</a> <a href=https://twitter.com/MBstream>fame</a><a href=http://mike.bobak.googlepages.com>,</a>
+								<a href=idx-bak.htm>education</a> 
+		 <a href=http://mikebobak.wix.com/work>and</a> <a href=https://sites.google.com/site/metasciences/>fun</div>
+								<a href=http://ipfs.io/#alpha-demo>.</a> 
+        </div>
+    </div>
+
+         
+
+
+
+    </div> <!-- wrap -->   
+    <div id="footer">
+        <div id="footer-inside">
+            <div id="footer-social">
+                    <div id="social-links">
+            <a class="twitter" href="http://www.twitter.com/kaggle" title="Follow Kaggle on Twitter"></a>     
+                    <a class="facebook" href="http://www.facebook.com/kaggle" title="Follow Kaggle on Facebook"></a>           
+                    <a class="linkedin" href="http://www.linkedin.com/companies/kaggle" title="Follow Kaggle on LinkedIn"></a>        
+    </div><!-- social-links -->
+
+            </div>
+            <div id="footer-copyright">
+                
+
+
+© 2014 Kaggle Inc            </div>
+            <div id="footer-links">
+                <a href="http://www.kaggle.com/about">About</a>
+<a href="http://www.kaggle.com/team">Our Team</a>
+<a href="http://www.kaggle.com/careers">Careers</a>
+<a href="http://www.kaggle.com/terms">Terms</a>
+<a href="http://www.kaggle.com/privacy">Privacy</a> 
+<!--<a href="/contact/press">Press</a>-->
+<a href="http://www.kaggle.com/papers">Papers</a>
+<a href="http://www.kaggle.com/Home/contact">Contact/Support</a>
+            </div> <!-- footer-links -->
+        </div> <!-- footer-inside -->
+    </div> <!--footer-->
+    
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-12629138-1']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_trackPageLoadTime']);
+            _gaq.push(['_setCustomVar', 1, 'usertype', 'anonymous', 2]);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
+    
+
+    <!-- Hiya 192.195.82.89! Cheers, RD00155D48523Bp -->
+		<br>		Last time I might have mentioned my intersts in: Assisted Problem-Solving-Environments; 
+		<br>		 e.g. knowledge-based assist for a data-science platform, 
+		<br>  and/or collaborative env for a kaggle like citizen-science platform. 
+		<br>	 Now:
+		<br>	 Re: DataScience: Believe it can be more collaborative and assited. 
+		<br>   I came up w/a Kaggle varient( http://notional.no-ip.org )
+		<br>	Soon after they started script shared/running (a 1st step I wanted).
+		<br>	 Also want: Langauges, like: R, Python, ..., which all use a dataframe, to use a sharable data-cube*
+		<br>(incl. semantics beyond column name/type).  * http://www.w3.org/TR/vocab-data-cube
+		<br>	 I also believe in minimal centeralization (maybe a p2p/bitcoin-ish update of listings of discoverable: data/code/..).
+		<br>	 There are now lots of new thoughts and work towards changing science in general, that could help 
+		<br> w/a light overlay to organize an informative/useful (citizen)(data)science platform.
+		<br> Other than YC, I also applied to Shuttleworth (like contentmine.org did). 
+		<br> I want a better sounding-boards/ideas more than money, and a need to have a time-line.
+		<br> I've applied to YC as both a profit and non-profit. I'm more focusd on doing something interesting than the corp. structure.
+
+		<p>What if you wanted to do a smart CMS/etc for sci/eng to biz/etc, so the focus would go beyond team-coord/mtg-planning, to
+		<br>the ability to share personally versioned micro-docs/work-flow-bits/even~code..
+		<p>It is almost as if the HALO and CALO projects had a child, so not only coordination w/(even more)context, but ability to inform/edu/etc..
+		<p> I have the base KnowledgeBases for both of those projects, which are built off of: 
+		<a href="http://www.cs.utexas.edu/users/mfkb/RKF/tree/">http://www.cs.utexas.edu/users/mfkb/RKF/tree/</a> to play around w/.
+		<br id="now" href="#now">
+		<p>Looked at kaggle/ai2 challenge a bit.
+		<p>Think not just mobile could break down the descreet app idea a bit, for more cooperative software, w/a bit of agency.
+		<p>Still have a focus on:
+		<p>Knowledge sharing tooling capable of helping sci/eng/.. work.
+		<p>A more old-school open_ai mixed w/elts of kaggle/zoouniverse/..
+
+		<p>I'm sure there are more notes around/that are not up.
+
+
+    <p>As much as possible I'd like2incl my love of ModelBasedReasoning mixing Modeling+Sim w/other kn-srcs+learning
+    <p><a href=https://www.openml.org/>OpenML</a> also of interest
+    <a href=https://github.com/ctuning>.</a>
+    <p>Need something like ideas above that kaggle now does, like shared data and kernals, but for generic science needs
+    <br>aws has free data buckets, but no easy way to add to this and then share what you have done so others can work off of it.
+		<p>been a lapse in notes, though finding qualitative relationships and explaing them, and then how instances differ from the norm of these
+
+
+
+    <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-2357-5918" href="https://orcid.org/0000-0003-2357-5918" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-2357-5918</a></div>
+		<p><a href=ncsa.html><img src=avoidMonoculture.jpg size=100></a>
+	<br><a href=http://bobak.servehttp.com>backup</a> 
+	<a href=b/2021-05-10desk.jpeg>.</a>
+	<p>my old:<a href=b/mikebobak/home.html>mike.bobak.googlepages.com</a>
+	<p>x
+		</body></html>
